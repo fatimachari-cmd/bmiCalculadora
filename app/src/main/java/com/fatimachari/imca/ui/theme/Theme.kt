@@ -12,32 +12,42 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = SagePrimaryDark,
+    onPrimary = SageOnPrimaryDark,
+    primaryContainer = SagePrimaryContainerDark,
+    onPrimaryContainer = SageOnPrimaryContainerDark,
+    secondary = SageSecondaryDark,
+    onSecondary = SageOnSecondaryDark,
+    secondaryContainer = SageSecondaryContainerDark,
+    background = SageBackgroundDark,
+    onBackground = SageOnBackgroundDark,
+    surface = SageSurfaceDark,
+    onSurface = SageOnSurfaceDark,
+    surfaceVariant = SageSurfaceVariantDark,
+    onSurfaceVariant = SageOnSurfaceVariantDark
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    primary = SagePrimaryLight,
+    onPrimary = SageOnPrimaryLight,
+    primaryContainer = SagePrimaryContainerLight,
+    onPrimaryContainer = SageOnPrimaryContainerLight,
+    secondary = SageSecondaryLight,
+    onSecondary = SageOnSecondaryLight,
+    secondaryContainer = SageSecondaryContainerLight,
+    background = SageBackgroundLight,
+    onBackground = SageOnBackgroundLight,
+    surface = SageSurfaceLight,
+    onSurface = SageOnSurfaceLight,
+    surfaceVariant = SageSurfaceVariantLight,
+    onSurfaceVariant = SageOnSurfaceVariantLight
 )
 
 @Composable
 fun ImcATheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    // Dynamic color is disabled by default so our Sage Green palette shines through
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
