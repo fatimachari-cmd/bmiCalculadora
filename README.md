@@ -1,14 +1,57 @@
-# Calculadora IMC
+# 🧮 Calculadora IMC
 
-## Descripción del proyecto
+Aplicación Android desarrollada con **Kotlin y XML** para calcular el Índice de Masa Corporal (IMC) mediante una interfaz sencilla y moderna.
 
-Aplicación Android para calcular el Índice de Masa Corporal (IMC).
-Desarrollada con Kotlin y Jetpack Compose.
+## ✨ Funcionalidades
 
-## Interfaz de usuario
+- Introducir el nombre del usuario.
+- Ajustar la altura mediante una barra deslizante.
+- Aumentar o disminuir el peso con los botones `+` y `−`.
+- Calcular el IMC automáticamente.
+- Mostrar el resultado y su categoría orientativa.
 
-## Captura de pantalla del avance
-![Calculadora IMC](capturas/calculadora.png)
-## Interfaz de usuario
-![UI de la Calculadora IMC](Screenshot_20261019_160802.png)
+## 🎨 Interfaz de usuario
 
+Comparación entre el diseño inicial y el diseño mejorado.
+
+<table>
+  <tr>
+    <th align="center">Antes</th>
+    <th align="center">Ahora</th>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Screenshot_20261019_160802.png" alt="Diseño inicial" width="300">
+    </td>
+    <td align="center" width="50%">
+      <img src="captura_UI.png" alt="Diseño mejorado" width="300">
+    </td>
+  </tr>
+</table>
+
+## 🛠️ Tecnologías
+
+- Kotlin
+- Android Studio
+- XML
+- Android SDK
+- Git y GitHub
+
+## 🧮 Fórmula
+
+**IMC = peso (kg) / altura² (m)**
+
+## 🌿 Ramas del proyecto
+
+- **`master`**: versión básica y funcional de la calculadora.
+- **`edit_style`**: versión con el diseño visual mejorado.
+
+## 🚀 Ejecución
+
+1. Abrir el proyecto en Android Studio.
+2. Esperar a que Gradle termine la sincronización.
+3. Ejecutar la aplicación en un emulador o dispositivo Android.
+
+---
+
+*Proyecto académico — Desarrollo de Aplicaciones Multiplataforma (DAM).* 
