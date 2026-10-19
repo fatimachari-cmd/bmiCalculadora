@@ -7,4 +7,4 @@ Desarrollada con Kotlin y Jetpack Compose.
 
 ## Interfaz de usuario
 
-![UI de la Calculadora IMC](captura_UI.png)
+![UI de la Calculadora IMC] (Screenshot_20261019_160802.png) (captura_UI.png)
