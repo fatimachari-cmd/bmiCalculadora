@@ -46,12 +46,5 @@ Comparación entre el diseño inicial y el diseño mejorado.
 - **`master`**: versión básica y funcional de la calculadora.
 - **`edit_style`**: versión con el diseño visual mejorado.
 
-## 🚀 Ejecución
 
-1. Abrir el proyecto en Android Studio.
-2. Esperar a que Gradle termine la sincronización.
-3. Ejecutar la aplicación en un emulador o dispositivo Android.
 
----
-
-*Proyecto académico — Desarrollo de Aplicaciones Multiplataforma (DAM).* 
